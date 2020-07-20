@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6047358F24C5820F005EFE58 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6047358E24C5820F005EFE58 /* PostsTableViewController.swift */; };
 		6080E65424C5772D0080D1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E65324C5772D0080D1D2 /* AppDelegate.swift */; };
 		6080E65624C5772D0080D1D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E65524C5772D0080D1D2 /* SceneDelegate.swift */; };
-		6080E65824C5772D0080D1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E65724C5772D0080D1D2 /* ViewController.swift */; };
 		6080E65B24C5772D0080D1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080E65924C5772D0080D1D2 /* Main.storyboard */; };
 		6080E65D24C5772E0080D1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6080E65C24C5772E0080D1D2 /* Assets.xcassets */; };
 		6080E66024C5772E0080D1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080E65E24C5772E0080D1D2 /* LaunchScreen.storyboard */; };
+		6080E66824C579550080D1D2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E66724C579550080D1D2 /* NetworkManager.swift */; };
+		6080E66A24C57B640080D1D2 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E66924C57B640080D1D2 /* LaunchViewController.swift */; };
+		6080E66D24C57EC80080D1D2 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6080E66C24C57EC80080D1D2 /* OfflineViewController.swift */; };
+		BB969AEDD066D85B3D9ECDE7 /* Pods_ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237007E5AA8C5A0F1C81EE0 /* Pods_ReachabilitySwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4091BC85FB680037FAF49D /* Pods-ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachabilitySwift.release.xcconfig"; path = "Target Support Files/Pods-ReachabilitySwift/Pods-ReachabilitySwift.release.xcconfig"; sourceTree = "<group>"; };
+		4237007E5AA8C5A0F1C81EE0 /* Pods_ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6047358E24C5820F005EFE58 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		6080E65024C5772D0080D1D2 /* ReachabilitySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilitySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6080E65324C5772D0080D1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6080E65524C5772D0080D1D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6080E65724C5772D0080D1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6080E65A24C5772D0080D1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6080E65C24C5772E0080D1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6080E65F24C5772E0080D1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6080E66124C5772E0080D1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6080E66724C579550080D1D2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6080E66924C57B640080D1D2 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		6080E66C24C57EC80080D1D2 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		DBA051D3588C81E7E1D7BB12 /* Pods-ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachabilitySwift.debug.xcconfig"; path = "Target Support Files/Pods-ReachabilitySwift/Pods-ReachabilitySwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB969AEDD066D85B3D9ECDE7 /* Pods_ReachabilitySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF53D6C7C890D778CD08CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBA051D3588C81E7E1D7BB12 /* Pods-ReachabilitySwift.debug.xcconfig */,
+				0B4091BC85FB680037FAF49D /* Pods-ReachabilitySwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6080E64724C5772D0080D1D2 = {
 			isa = PBXGroup;
 			children = (
 				6080E65224C5772D0080D1D2 /* ReachabilitySwift */,
 				6080E65124C5772D0080D1D2 /* Products */,
+				1AF53D6C7C890D778CD08CC9 /* Pods */,
+				FF91695D49A6F601EC8D5DCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +80,32 @@
 			children = (
 				6080E65324C5772D0080D1D2 /* AppDelegate.swift */,
 				6080E65524C5772D0080D1D2 /* SceneDelegate.swift */,
-				6080E65724C5772D0080D1D2 /* ViewController.swift */,
 				6080E65924C5772D0080D1D2 /* Main.storyboard */,
 				6080E65C24C5772E0080D1D2 /* Assets.xcassets */,
 				6080E65E24C5772E0080D1D2 /* LaunchScreen.storyboard */,
 				6080E66124C5772E0080D1D2 /* Info.plist */,
+				6080E66B24C57BFB0080D1D2 /* ReachabilitySwift */,
+				6047358E24C5820F005EFE58 /* PostsTableViewController.swift */,
 			);
 			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		6080E66B24C57BFB0080D1D2 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				6080E66724C579550080D1D2 /* NetworkManager.swift */,
+				6080E66924C57B640080D1D2 /* LaunchViewController.swift */,
+				6080E66C24C57EC80080D1D2 /* OfflineViewController.swift */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		FF91695D49A6F601EC8D5DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4237007E5AA8C5A0F1C81EE0 /* Pods_ReachabilitySwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6080E66424C5772E0080D1D2 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
+				613A9744D5B36BC2AF3275F1 /* [CP] Check Pods Manifest.lock */,
 				6080E64C24C5772D0080D1D2 /* Sources */,
 				6080E64D24C5772D0080D1D2 /* Frameworks */,
 				6080E64E24C5772D0080D1D2 /* Resources */,
+				B8896B29B8482C7BEA4D6A70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +176,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		613A9744D5B36BC2AF3275F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReachabilitySwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8896B29B8482C7BEA4D6A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReachabilitySwift/Pods-ReachabilitySwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReachabilitySwift/Pods-ReachabilitySwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReachabilitySwift/Pods-ReachabilitySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6080E64C24C5772D0080D1D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6080E65824C5772D0080D1D2 /* ViewController.swift in Sources */,
+				6080E66D24C57EC80080D1D2 /* OfflineViewController.swift in Sources */,
+				6047358F24C5820F005EFE58 /* PostsTableViewController.swift in Sources */,
+				6080E66824C579550080D1D2 /* NetworkManager.swift in Sources */,
+				6080E66A24C57B640080D1D2 /* LaunchViewController.swift in Sources */,
 				6080E65424C5772D0080D1D2 /* AppDelegate.swift in Sources */,
 				6080E65624C5772D0080D1D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,9 +370,11 @@
 		};
 		6080E66524C5772E0080D1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA051D3588C81E7E1D7BB12 /* Pods-ReachabilitySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				INFOPLIST_FILE = ReachabilitySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +389,11 @@
 		};
 		6080E66624C5772E0080D1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4091BC85FB680037FAF49D /* Pods-ReachabilitySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				INFOPLIST_FILE = ReachabilitySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
